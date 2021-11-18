@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "260648078770",
+    "firebase_url": "https://technobeat-vi20.firebaseio.com",
+    "project_id": "technobeat-vi20",
+    "storage_bucket": "technobeat-vi20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260648078770:android:841227c1a9aef43b9de8ab",
+        "android_client_info": {
+          "package_name": "com.example.retro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260648078770-41815nrhefdb4hh7gokuvr0turdipjen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.retro",
+            "certificate_hash": "da5721189b6b3df7c44cdc75426ef6fbcf3fcae4"
+          }
+        },
+        {
+          "client_id": "260648078770-mjfd5ps9fnphm33qd2e8a3ha990orkca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-0kLF0nsZyinzhVVteL2a4xv_PO-IBfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260648078770-mjfd5ps9fnphm33qd2e8a3ha990orkca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

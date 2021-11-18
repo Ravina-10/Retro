@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.ibrahimsn.particle.ParticleView
+        android:id="@+id/particleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxParticleRadius="12"
+        app:minParticleRadius="5"
+        app:particleColor="@android:color/white"
+        app:particleCount="20" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/rabbit"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_marginTop="65dp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technical Events"
+
+            android:textColor="@color/white_color"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+
+        <ImageView
+            android:id="@+id/one"
+            android:layout_margin="10dp"
+            android:src="@drawable/technicalevents"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:background="@drawable/curve"
+
+            />
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Corporate Events"
+            android:textColor="@color/white_color"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+android:layout_margin="10dp"
+            android:layout_height="250dp"
+            android:background="@drawable/corporate"
+            />
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaming Events"
+            android:textColor="@color/white_color"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/three"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:background="@drawable/gaming" />
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Social Events"
+            android:textColor="@color/white_color"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/social"
+            android:layout_height="250dp"/>
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photography Events"
+            android:textColor="@color/white_color"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/four"
+            android:src="@drawable/cine"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:background="@drawable/curve"
+
+            />
+        <TextView
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flagship Events"
+            android:textColor="@color/white_color"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flag"
+            android:layout_height="250dp"/>
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
